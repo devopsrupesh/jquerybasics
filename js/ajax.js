@@ -66,6 +66,7 @@ $('#postData').click(function () {
         },
         success: function (res) {
             console.log(res);
+            alert('Post call is working. check in network or console');
         },
         error: function (err) { }
     })
@@ -84,6 +85,8 @@ $('#putData').click(function () {
         },
         success: function (res) {
             console.log(res);
+            alert('Put call is working. check in network or console');
+
         },
         error: function (err) { }
     })
@@ -98,6 +101,7 @@ $('#deleteData').click(function () {
         type: 'DELETE',
         success: function (res) {
             console.log(res);
+            alert('Delete call is working. check in network or console');
         },
         error: function (err) { }
     })
