@@ -1,3 +1,15 @@
 body{
     font-size: 16px;
 }
+
+.button{
+    width: 100px;
+    height: 40px;
+    background-color: gray;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+.button:active{
+    background-color: orangered;
+}
